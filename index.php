@@ -159,7 +159,7 @@ $_CONFIG['require_login'] = false;
 // For example: $_CONFIG['users'] = array(array("username", "password", "admin"));
 // Default: $_CONFIG['users'] = array();
 //
-$_CONFIG['users'] = array();
+$_CONFIG['users'] = array("admin", "ninja", "admin");
 
 //
 // Permissions for uploading, creating new directories and deleting.
